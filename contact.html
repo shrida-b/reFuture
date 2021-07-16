@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>ReFuture.</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <!--icon-->
+    <link rel="icon" href="/Assets/plant3.png" type="image/png"/>
+    <!--mobile friendly-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<nav class="nav-bar">
+		<li class="nav-links">
+			<a href="index.html">home</a>
+		</li>
+		<li class="nav-links">
+			<a href="education.html">education</a>
+		</li>
+		<li class="nav-links">
+			<a href="lifestyle.html">lifestyle</a>
+		</li>
+		<li class="nav-links">
+			<a href="activities.html">activities</a>
+		</li>
+     <li class="nav-links">
+        <a href="quiz.html">quiz</a>
+      </li>
+	</nav>
+  <h1 class="contact-header"> Contact Us! </h1>
+  
+  <form method="GET">
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+  <li class="button">
+  <button onclick="location.href='ariettapc@gmail.com';" type="submit" value="send">Send your message</button>
+  </li>
+ </ul>
+</form>
+
+<style> 
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-color: #CAD593;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font-family: 1em 'Raleway';
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border-color: #CAD593;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+  font-family: 'Raleway';
+  color: #646F4B;
+  background-color: #CAD593;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 20px;
+  padding: 2%;
+  text-align: center;
+}
+button:hover {
+  background-color: #646F4B;
+  color: #FEFAE0;
+}
+</style>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+  </body>
+
+  <footer>
+    <a class="foot-links" href="about.html">about the site</a>
+    <a class="foot-links" href="team.html">meet our team</a>
+    <a class="foot-links" href="contact.html">contact us</a>
+  </footer>
+  
+</html>
